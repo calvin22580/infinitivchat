@@ -3,8 +3,8 @@ import requests
 import json
 
 # Set the API endpoint and token.
-API_ENDPOINT = "https://<your-api-endpoint>"
-AUTH_TOKEN = "Bearer <your-auth-token>"
+API_ENDPOINT = "https://chatbot-pzcsm.northeurope.inference.ml.azure.com/score"
+AUTH_TOKEN = "Bearer jcRhLwENl8rh8DKiy9OEAceOpxGiLgne"
 
 headers = {"Authorization": AUTH_TOKEN, "Content-Type": "application/json"}
 
